@@ -16,8 +16,8 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.TARKESH852 }}
-          password: ${{ secrets.tarkesh@12345 }}
+          username: ${{ secrets.DOCKER_HUB }}
+          password: ${{ secrets.dockerhub@12345 }}
           ecr: auto
           logout: true
 
